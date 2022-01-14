@@ -7,7 +7,12 @@ deviation**.
 1. Compute the mean for all values in the column
 2. Compute MD for each column: 
 
-$$\textrm{MD} = \dfrac{1}{n-1} \sum_{i=1}^{n} | x_i - \bar{x} |$$
+![Formula for absolute mean deviation](img/absolute_mean_deviation.gif)
 
 3. For each value in the column, compute the "z-score" as 
-$$z = (value - mean) / MD$$
+`z = (value - mean) / MD`
+
+And as an SVG instead of GIF:
+
+![Formula for absolute mean deviation](img/absolute_mean_deviation.svg)
+
