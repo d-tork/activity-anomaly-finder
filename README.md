@@ -21,3 +21,7 @@ python -m pip install -r requirements.txt
 ```bash
 python weeklydata.py
 ```
+
+```bash
+python dim_reduction.py
+```
