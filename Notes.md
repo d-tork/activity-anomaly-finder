@@ -12,7 +12,3 @@ deviation**.
 3. For each value in the column, compute the "z-score" as 
 `z = (value - mean) / MD`
 
-And as an SVG instead of GIF:
-
-![Formula for absolute mean deviation](img/absolute_mean_deviation.svg)
-
