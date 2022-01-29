@@ -13,6 +13,7 @@ r4.2.tar.bz2:
 
 extract: r4.2.tar.bz2
 	tar -xjvf $< -C . r4.2/{file,email,device,logon}.csv
+	# TODO: the braces syntax of searching for those files did NOT work on dolores
 
 venv: requirements.txt
 	python3 -m venv venv
