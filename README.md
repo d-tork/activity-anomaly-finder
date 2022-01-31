@@ -3,13 +3,10 @@ Anomaly detection methods using the [CMU SEI Insider Threat dataset](https://res
 
 ## Setup
 ### Data
-Obtain the data yourself, or run the included script:
+Obtain the data yourself, or run the Makefile:
 ```bash
-chmod +x ./download_raw_data.sh
-./download_raw_data.sh
+make
 ```
-
-Then move or symlink the csv files to the root of this repo.
 
 ### Create python environment
 ```bash
